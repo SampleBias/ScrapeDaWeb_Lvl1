@@ -21,9 +21,8 @@ graph_config = {
 # Initialize SmartScraperGraph with prompt, source, and configuration
 smart_scraper_graph = SmartScraperGraph(
     #prompt="List all the content",  # Set prompt for scraping
-    prompt="List me all the projects with their descriptions",  # Source URL or HTML content to scrape
-    source="https://github.com/InsightEdge01",
-    #source="https://perinim.github.io/projects",
+    prompt="find the emails on this website",  # Source URL or HTML content to scrape
+    source="https://www.example.com",
     config=graph_config  # Pass the graph configuration
 )
 
