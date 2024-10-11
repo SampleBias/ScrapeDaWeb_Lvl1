@@ -11,7 +11,7 @@ class SmartScraper:
         self.graph_config = {
             "llm": {
                 "model": llm_model,
-                "temperature": 0,
+                "temperature": 0.2,
                 "format": "json",
                 "base_url": llm_base_url,
             },
